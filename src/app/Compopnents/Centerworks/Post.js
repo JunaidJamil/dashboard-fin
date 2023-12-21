@@ -15,7 +15,7 @@ const Post = () => {
       des: "Anything he wants to write or something else like a shit",
     },
     {
-      image: '/Assets/Images/Post2.png',
+      image: '/Assets/Images/post2.png',
       icons: <CiHeart />,
       icons2: <CiSaveDown2 />,
       icons3: <FaRegComment />,
