@@ -45,7 +45,7 @@ const Right = () => {
   return (
     <div className={`sticky lg:left-[210px] top-0 lg:w-[224px] w-full lg:h-screen lg:h-auto flex flex-col justify-between bg-white border-2 rounded-lg border-grey-500 overflow-y-auto lg:overflow-y-visible ${isMenuOpen ? 'lg:hidden' : ''}`}>
       <div>
-        <Image src="/Assets/Images/Logo.png" width={152} height={55} alt='Logo' />
+        <Image src="/Assets/Images/logout.png" width={152} height={55} alt='Logo' />
         <div className='lg:flex lg:flex-col mt-10'>
           {data.map((item, index) => (
             <ul
@@ -61,7 +61,7 @@ const Right = () => {
                 <p className='ml-2'>{item.tabs}</p>
                 {index === activeTab && (
                   <span className='ml-2'>
-                    {/* Add your arrow component here */}
+                  
                     {'->'}
                   </span>
                 )}
